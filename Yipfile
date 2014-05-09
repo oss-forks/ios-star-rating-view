@@ -1,0 +1,31 @@
+
+license "ASStarRatingView is available under the MIT license."
+
+resources:ios
+{
+	ASStarRatingView/stars/half_selected_star.png
+	"ASStarRatingView/stars/half_selected_star@2x.png"
+	ASStarRatingView/stars/not_selected_star.png
+	"ASStarRatingView/stars/not_selected_star@2x.png"
+	ASStarRatingView/stars/selected_star.png
+	"ASStarRatingView/stars/selected_star@2x.png"
+}
+
+public_headers
+{
+	ASStarRatingView/ASStarRatingView.h
+}
+
+sources:ios
+{
+	ASStarRatingView/ASStarRatingView.m
+}
+
+app_sources
+{
+	ASStarRatingViewDemo/ASStarRatingViewDemo/AppDelegate.h
+	ASStarRatingViewDemo/ASStarRatingViewDemo/AppDelegate.m
+	ASStarRatingViewDemo/ASStarRatingViewDemo/ViewController.h
+	ASStarRatingViewDemo/ASStarRatingViewDemo/ViewController.m
+	ASStarRatingViewDemo/ASStarRatingViewDemo/main.m
+}
